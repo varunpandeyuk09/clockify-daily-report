@@ -43,10 +43,6 @@ npm start
 
 Keep this process running. If the machine is shut down, the scheduler cannot execute.
 
-## WhatsApp
+## How to get Clockify API key
 
-WhatsApp delivery is intentionally not included in this starter because the correct implementation depends on whether you are using:
-- the official WhatsApp Business Platform, or
-- an existing personal WhatsApp account/group.
-
-Do not automate a personal WhatsApp session until the delivery method is decided.
+watch this video : [video](https://www.awesomescreenshot.com/video/55485138?key=dafead1c9b482a1b024acdda40934882)
