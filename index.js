@@ -55,12 +55,30 @@ async function main() {
       end
     );
 
+    console.log(`\nFetched ${entries.length} entries from Clockify (${start} -> ${end})`);
+
     const result = buildMessage(
       entries,
-      reportDate
+      reportDate,
+      { reportEndIso: end }
     );
 
     console.log("\n" + result.message);
+
+    // Debug: show ignored entries if any
+    if (result.ignored && result.ignored.length > 0) {
+      console.log(`\n⚠️  Ignored ${result.ignored.length} entries (zero/invalid duration):`);
+      result.ignored.forEach((ig, i) => {
+        console.log(`  ${i + 1}. id=${ig.id} desc="${ig.description}" reason=${ig.reason} start=${ig.start} end=${ig.end}`);
+      });
+    }
+
+    if (result.details) {
+      const fallbackCount = result.details.filter(d => d.isFallbackDescription).length;
+      if (fallbackCount > 0) {
+        console.log(`\nℹ️  ${fallbackCount} entries had empty description, grouped as "(No description)" / Project name`);
+      }
+    }
 
   } catch (error) {
     console.error(

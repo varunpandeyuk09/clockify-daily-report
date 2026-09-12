@@ -25,25 +25,40 @@ function config() {
 async function getTimeEntries(start, end) {
   const { apiKey, workspaceId, userId } = config();
 
-  const response = await axios.get(
-    `${BASE_URL}/workspaces/${workspaceId}/user/${userId}/time-entries`,
-    {
-      headers: {
-        "X-Api-Key": apiKey
-      },
-      params: {
-        start,
-        end,
-        page: 1,
-        "page-size": 100
-      },
-      timeout: 30000
-    }
-  );
+  let allEntries = [];
+  let page = 1;
+  const pageSize = 100;
 
-  return Array.isArray(response.data)
-    ? response.data
-    : [];
+  while (true) {
+    const response = await axios.get(
+      `${BASE_URL}/workspaces/${workspaceId}/user/${userId}/time-entries`,
+      {
+        headers: {
+          "X-Api-Key": apiKey
+        },
+        params: {
+          start,
+          end,
+          page,
+          "page-size": pageSize,
+          hydrated: true
+        },
+        timeout: 30000
+      }
+    );
+
+    const data = Array.isArray(response.data) ? response.data : [];
+    allEntries = allEntries.concat(data);
+
+    // last page if fewer than pageSize
+    if (data.length < pageSize) break;
+    page += 1;
+
+    // safety cap to avoid infinite loop (100 pages = 10000 entries)
+    if (page > 100) break;
+  }
+
+  return allEntries;
 }
 
 module.exports = {
