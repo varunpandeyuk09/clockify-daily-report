@@ -1,3 +1,12 @@
 .env
 node_modules/
 npm-debug.log*
+
+# WhatsApp sessions - never commit (contains login keys)
+baileys_auth/
+.wwebjs_auth/
+.wwebjs_cache/
+auth_info_baileys/
+
+# Sent log - local only
+sent-log.json

@@ -1,0 +1,126 @@
+﻿2026-09-13 23:27:24 â° Sync triggered (user=varun admin=False)
+2026-09-13 23:27:24 Before: 2026-09-13 23:27:24
+2026-09-13 23:27:24 w32tm /resync => Sending resync command to local computer
+The following error occurred: Access is denied. (0x80070005)
+ (exit=-2147024891)
+2026-09-13 23:27:24 Retrying with time.windows.com...
+2026-09-13 23:27:24 The following error occurred: Access is denied. (0x80070005)
+
+2026-09-13 23:27:24 restart failed: Service 'Windows Time (w32time)' cannot be stopped due to the following error: Cannot open w32time service on computer '.'.
+2026-09-13 23:27:27 retry w32tm /resync => Sending resync command to local computer
+The following error occurred: Access is denied. (0x80070005)
+ (exit=-2147024891)
+2026-09-13 23:27:27 status: Leap Indicator: 0(no warning) | Stratum: 5 (secondary reference - syncd by (S)NTP) | Precision: -23 (119.209ns per tick) | Root Delay: 0.0601776s | Root Dispersion: 7.8249180s | ReferenceId: 0x28515E41 (source IP:  40.81.94.65) | Last Successful Sync Time: 13-09-2026 23:24:47 | Source: time.windows.com,0x8  | Poll Interval: 10 (1024s) |  | 
+2026-09-13 23:27:27 âœ… After: 2026-09-13 23:27:27
+2026-09-14 00:30:32 â° Sync triggered (user=varun admin=False)
+2026-09-14 00:30:32 Before: 2026-09-14 00:30:32
+2026-09-14 00:30:32 w32tm /resync => Sending resync command to local computer
+The following error occurred: Access is denied. (0x80070005)
+ (exit=-2147024891)
+2026-09-14 00:30:32 Retrying with time.windows.com...
+2026-09-14 00:30:32 The following error occurred: Access is denied. (0x80070005)
+
+2026-09-14 00:30:32 restart failed: Service 'Windows Time (w32time)' cannot be stopped due to the following error: Cannot open w32time service on computer '.'.
+2026-09-14 00:30:36 retry w32tm /resync => Sending resync command to local computer
+The following error occurred: Access is denied. (0x80070005)
+ (exit=-2147024891)
+2026-09-14 00:30:36 status: Leap Indicator: 3(not synchronized) | Stratum: 0 (unspecified) | Precision: -23 (119.209ns per tick) | Root Delay: 0.0588936s | Root Dispersion: 0.9077645s | ReferenceId: 0x00000000 (unspecified) | Last Successful Sync Time: 14-09-2026 00:16:15 | Source: time.windows.com,0x8  | Poll Interval: 10 (1024s) |  | 
+2026-09-14 00:30:36 âœ… After: 2026-09-14 00:30:36
+2026-09-14 09:04:38 â° Sync triggered (user=varun admin=False)
+2026-09-14 09:04:38 Before: 2026-09-14 09:04:38
+2026-09-14 09:04:39 w32tm /resync => Sending resync command to local computer
+The following error occurred: Access is denied. (0x80070005)
+ (exit=-2147024891)
+2026-09-14 09:04:39 Retrying with time.windows.com...
+2026-09-14 09:04:39 The following error occurred: Access is denied. (0x80070005)
+
+2026-09-14 09:04:39 restart failed: Service 'Windows Time (w32time)' cannot be stopped due to the following error: Cannot open w32time service on computer '.'.
+2026-09-14 09:04:42 retry w32tm /resync => Sending resync command to local computer
+The following error occurred: Access is denied. (0x80070005)
+ (exit=-2147024891)
+2026-09-14 09:04:42 status: Leap Indicator: 0(no warning) | Stratum: 5 (secondary reference - syncd by (S)NTP) | Precision: -23 (119.209ns per tick) | Root Delay: 0.0908233s | Root Dispersion: 7.7729835s | ReferenceId: 0x28515E41 (source IP:  40.81.94.65) | Last Successful Sync Time: 14-09-2026 09:02:55 | Source: time.windows.com,0x8  | Poll Interval: 10 (1024s) |  | 
+2026-09-14 09:04:42 âœ… After: 2026-09-14 09:04:42
+2026-09-14 11:44:16 â° Sync triggered (user=varun admin=False)
+2026-09-14 11:44:16 Before: 2026-09-14 11:44:16
+2026-09-14 11:44:16 w32tm /resync => Sending resync command to local computer
+The following error occurred: Access is denied. (0x80070005)
+ (exit=-2147024891)
+2026-09-14 11:44:16 Retrying with time.windows.com...
+2026-09-14 11:44:16 The following error occurred: Access is denied. (0x80070005)
+
+2026-09-14 11:44:16 restart failed: Service 'Windows Time (w32time)' cannot be stopped due to the following error: Cannot open w32time service on computer '.'.
+2026-09-14 11:44:19 retry w32tm /resync => Sending resync command to local computer
+The following error occurred: Access is denied. (0x80070005)
+ (exit=-2147024891)
+2026-09-14 11:44:19 status: Leap Indicator: 3(not synchronized) | Stratum: 0 (unspecified) | Precision: -23 (119.209ns per tick) | Root Delay: 0.0758313s | Root Dispersion: 0.1826128s | ReferenceId: 0x00000000 (unspecified) | Last Successful Sync Time: 14-09-2026 11:41:49 | Source: time.windows.com,0x8  | Poll Interval: 10 (1024s) |  | 
+2026-09-14 11:44:19 âœ… After: 2026-09-14 11:44:19
+2026-09-14 14:36:46 â° Sync triggered (user=varun admin=False)
+2026-09-14 14:36:46 Before: 2026-09-14 14:36:46
+2026-09-14 14:36:46 w32tm /resync => Sending resync command to local computer
+The following error occurred: Access is denied. (0x80070005)
+ (exit=-2147024891)
+2026-09-14 14:36:46 Retrying with time.windows.com...
+2026-09-14 14:36:46 The following error occurred: Access is denied. (0x80070005)
+
+2026-09-14 14:36:46 restart failed: Service 'Windows Time (w32time)' cannot be stopped due to the following error: Cannot open w32time service on computer '.'.
+2026-09-14 14:36:49 retry w32tm /resync => Sending resync command to local computer
+The following error occurred: Access is denied. (0x80070005)
+ (exit=-2147024891)
+2026-09-14 14:36:50 status: Leap Indicator: 3(not synchronized) | Stratum: 0 (unspecified) | Precision: -23 (119.209ns per tick) | Root Delay: 0.3604986s | Root Dispersion: 7.9395670s | ReferenceId: 0x00000000 (unspecified) | Last Successful Sync Time: 14-09-2026 14:19:47 | Source: time.windows.com,0x8  | Poll Interval: 10 (1024s) |  | 
+2026-09-14 14:36:50 âœ… After: 2026-09-14 14:36:50
+2026-09-14 19:05:01 â° Sync triggered (user=varun admin=False)
+2026-09-14 19:05:01 Before: 2026-09-14 19:05:01
+2026-09-14 19:05:01 w32tm /resync => Sending resync command to local computer
+The following error occurred: Access is denied. (0x80070005)
+ (exit=-2147024891)
+2026-09-14 19:05:01 Retrying with time.windows.com...
+2026-09-14 19:05:01 The following error occurred: Access is denied. (0x80070005)
+
+2026-09-14 19:05:02 restart failed: Service 'Windows Time (w32time)' cannot be stopped due to the following error: Cannot open w32time service on computer '.'.
+2026-09-14 19:05:05 retry w32tm /resync => Sending resync command to local computer
+The following error occurred: Access is denied. (0x80070005)
+ (exit=-2147024891)
+2026-09-14 19:05:05 status: Leap Indicator: 3(not synchronized) | Stratum: 0 (unspecified) | Precision: -23 (119.209ns per tick) | Root Delay: 0.0762555s | Root Dispersion: 0.3115109s | ReferenceId: 0x00000000 (unspecified) | Last Successful Sync Time: 14-09-2026 18:55:35 | Source: time.windows.com,0x8  | Poll Interval: 10 (1024s) |  | 
+2026-09-14 19:05:05 âœ… After: 2026-09-14 19:05:05
+2026-09-14 20:01:53 â° Sync triggered (user=varun admin=False)
+2026-09-14 20:01:53 Before: 2026-09-14 20:01:53
+2026-09-14 20:01:53 w32tm /resync => Sending resync command to local computer
+The following error occurred: Access is denied. (0x80070005)
+ (exit=-2147024891)
+2026-09-14 20:01:53 Retrying with time.windows.com...
+2026-09-14 20:01:53 The following error occurred: Access is denied. (0x80070005)
+
+2026-09-14 20:01:53 restart failed: Service 'Windows Time (w32time)' cannot be stopped due to the following error: Cannot open w32time service on computer '.'.
+2026-09-14 20:01:56 retry w32tm /resync => Sending resync command to local computer
+The following error occurred: Access is denied. (0x80070005)
+ (exit=-2147024891)
+2026-09-14 20:01:56 status: Leap Indicator: 3(not synchronized) | Stratum: 0 (unspecified) | Precision: -23 (119.209ns per tick) | Root Delay: 0.2282657s | Root Dispersion: 8.0469042s | ReferenceId: 0x00000000 (unspecified) | Last Successful Sync Time: 14-09-2026 19:51:46 | Source: time.windows.com,0x8  | Poll Interval: 10 (1024s) |  | 
+2026-09-14 20:01:56 âœ… After: 2026-09-14 20:01:56
+2026-09-14 21:08:03 â° Sync triggered (user=varun admin=False)
+2026-09-14 21:08:03 Before: 2026-09-14 21:08:03
+2026-09-14 21:08:03 w32tm /resync => Sending resync command to local computer
+The following error occurred: Access is denied. (0x80070005)
+ (exit=-2147024891)
+2026-09-14 21:08:03 Retrying with time.windows.com...
+2026-09-14 21:08:03 The following error occurred: Access is denied. (0x80070005)
+
+2026-09-14 21:08:03 restart failed: Service 'Windows Time (w32time)' cannot be stopped due to the following error: Cannot open w32time service on computer '.'.
+2026-09-14 21:08:06 retry w32tm /resync => Sending resync command to local computer
+The following error occurred: Access is denied. (0x80070005)
+ (exit=-2147024891)
+2026-09-14 21:08:06 status: Leap Indicator: 3(not synchronized) | Stratum: 0 (unspecified) | Precision: -23 (119.209ns per tick) | Root Delay: 0.0771841s | Root Dispersion: 4.3407210s | ReferenceId: 0x00000000 (unspecified) | Last Successful Sync Time: 14-09-2026 20:56:30 | Source: time.windows.com,0x8  | Poll Interval: 10 (1024s) |  | 
+2026-09-14 21:08:07 âœ… After: 2026-09-14 21:08:07
+2026-09-14 23:22:28 â° Sync triggered (user=varun admin=False)
+2026-09-14 23:22:28 Before: 2026-09-14 23:22:28
+2026-09-14 23:22:28 w32tm /resync => Sending resync command to local computer
+The following error occurred: Access is denied. (0x80070005)
+ (exit=-2147024891)
+2026-09-14 23:22:28 Retrying with time.windows.com...
+2026-09-14 23:22:28 The following error occurred: Access is denied. (0x80070005)
+
+2026-09-14 23:22:28 restart failed: Service 'Windows Time (w32time)' cannot be stopped due to the following error: Cannot open w32time service on computer '.'.
+2026-09-14 23:22:31 retry w32tm /resync => Sending resync command to local computer
+The following error occurred: Access is denied. (0x80070005)
+ (exit=-2147024891)
+2026-09-14 23:22:31 status: Leap Indicator: 3(not synchronized) | Stratum: 0 (unspecified) | Precision: -23 (119.209ns per tick) | Root Delay: 0.0645701s | Root Dispersion: 0.9770308s | ReferenceId: 0x00000000 (unspecified) | Last Successful Sync Time: 14-09-2026 23:12:46 | Source: time.windows.com,0x8  | Poll Interval: 10 (1024s) |  | 
+2026-09-14 23:22:31 âœ… After: 2026-09-14 23:22:31

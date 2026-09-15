@@ -34,6 +34,17 @@ function parseDuration(duration) {
   return isNegative ? -total : total;
 }
 
+// Debug helper: print raw entry details (call with DEBUG=true in .env)
+function debugEntry(entry) {
+  if (String(process.env.DEBUG || "false").toLowerCase() !== "true") return;
+  const desc = getDescription(entry);
+  const dur = entry?.timeInterval?.duration;
+  const start = entry?.timeInterval?.start;
+  const end = entry?.timeInterval?.end;
+  const parsed = parseDuration(dur);
+  console.log(`  [DEBUG] "${desc}" | duration=${dur} | parsed=${parsed}s | start=${start} | end=${end} | id=${entry?.id}`);
+}
+
 function secondsToHours(seconds) {
   return (seconds / 3600).toFixed(2);
 }
